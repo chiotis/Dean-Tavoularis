@@ -28,7 +28,7 @@
 <div class="container">
 	<div class="span-4 last" id="header">
 		<div class="span-3" >
-			<h1><img src="css/logo.png" alt="Dean Tavoularis Book" /></h1>
+			<h1><img src="http://tavoularis.elegrad.com/css/logo.png" alt="Dean Tavoularis Book" /></h1>
 		</div>
 		<div class="span-1 last support">
 			<a href="#" onclick="window.open('http://chiotis.wufoo.com/forms/s7x3k7/',  null, 'height=494, width=680, toolbar=0, location=0, status=1, scrollbars=1,resizable=1'); return false" title="Dean Tavoularis Book">Support</a>
@@ -50,18 +50,61 @@
 			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" >
 			</form>
 			-->
-			<a href="https://gum.co/tavoularis" ><img src="order2.png" alt="Get Adobe Flash player" style="margin-left: 30px;" /></a>
 
-			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin-left: 30px;">
+			<!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin-left: 30px;">
 			<input type="hidden" name="cmd" value="_s-xclick">
 			<input type="hidden" name="hosted_button_id" value="YXZFYH3WVW8V4">
-			<input type="image" src="http://tavoularisbook.info/order.png?v=101" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<input type="image" src="http://tavoularis.elegrad.com/css/order.png?v=100" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" >
-			</form>
+			</form> -->
+
+
+<center>
+        <span class="AmountLabel" style="color: #fff;font-weight: bold;" >&euro; 70,00</span>
+
+    <a class="vivapayments-widget-button" style="background-color: #71843f;" id="vivapayments_widget_anchor_acc373b1-3961-4b0b-87df-17dbd9058d7b" href="https://www.vivapayments.com/web/buybutton/default.aspx">BUY NOW</a>
+
+    <script type="text/javascript" src="https://gumroad.com/js/gumroad.js"></script>
+    <br/><br/>
+    <hr/>
+<span class="AmountLabel" style="color: #fff;font-weight: bold;" >$19.99</span>
+<a class="gumroad-button" href="https://gumroad.com/l/DLQs?wanted=true">BUY eBook in PDF</a>
+</center>
+
+<script>
+    (function (vivapayments, undefined) {
+        vivapayments.load_widgets = vivapayments.load_widgets || function () { };
+        vivapayments.widgets = vivapayments.widgets || [];
+        vivapayments.widgets.push({
+            ProductID: 'acc373b1-3961-4b0b-87df-17dbd9058d7b',
+            widget_type: 'store_item_buy_now',
+            anchor_id: 'vivapayments_widget_anchor_acc373b1-3961-4b0b-87df-17dbd9058d7b',
+            popup: 'True',
+            lang: 'en-US',
+            widget_options: {
+                ProductID: 'acc373b1-3961-4b0b-87df-17dbd9058d7b',
+                Key: 'OwyJ9DQU12uItmzZkDUXGezFP0VkSFWN7YkC30%2b5%2bs4%3d'
+            }
+        });
+
+        if (!vivapayments.script) {
+            vivapayments.script = document.createElement('script');
+            vivapayments.script.type = 'text/javascript';
+            vivapayments.script.async = true;
+            vivapayments.script.src = 'https://www.vivapayments.com/members/widget/js/widgets.js';
+
+            var s = document.getElementsByTagName('script')[0];
+
+            s.parentNode.insertBefore(vivapayments.script, s);
+        } else if (vivapayments.load_widgets) {
+            vivapayments.load_widgets();
+        }
+    })(window.vivapayments = window.vivapayments || {});
+</script>
 
 			<h3 class="price" >worldwide shipping cost included</h3>
 			<p class="order">
-				<img src="images/PayPal.png" alt="" />
+				
 				<img src="images/VISA.png" alt="" />
 				<img src="images/Mastercard.png" alt="" />
 				<img src="images/American-Express.png" alt="" />
@@ -89,7 +132,7 @@
 		</div>
 		
 		<div class="span-1 last credit">
-			<p>hosted by GitHub Pages</p>
+			<p>hosted by <a href="http://elegrad.com" >elegrad.com</a></p>
 		</div>
 	</div>
 </div>
@@ -106,6 +149,5 @@
   })();
 
 </script>
-<script type="text/javascript" src="https://gumroad.com/js/gumroad.js"></script>
 </body>
 </html>
